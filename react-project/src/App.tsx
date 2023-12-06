@@ -1,5 +1,7 @@
 import React from 'react'
 import './App.css'
+// @ts-expect-error
+import { ref } from 'vue'
 
 type WithName = { name: string }
 
