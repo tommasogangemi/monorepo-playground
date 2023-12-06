@@ -1,0 +1,15 @@
+{
+  "root": true,
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "globals": {
+    "google": "readonly"
+  },
+  "extends": [
+    "eslint:recommended",
+    "@nuxtjs/eslint-config-typescript",
+    "plugin:prettier/recommended" // important to have as last in order to override all conflicting eslint rules
+  ]
+}
