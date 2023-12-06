@@ -3,6 +3,7 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "c-install": "pnpm install --frozen-lockfile",
     "build": "nuxt build",
     "start": "nuxt dev",
     "generate": "nuxt generate",

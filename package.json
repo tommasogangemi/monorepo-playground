@@ -4,6 +4,7 @@
     "description": "",
     "main": "index.js",
     "scripts": {
+        "c-install": "pnpm -r install --frozen-lockfile",
         "start": "pnpm --stream -r start"
     },
     "keywords": [],
