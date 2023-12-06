@@ -18,7 +18,8 @@
     "noEmit": true,
     "jsx": "react",
     "noFallthroughCasesInSwitch": true,
-    "sourceMap": true
+    "sourceMap": true,
+    "types": ["api-common/types"]
   },
   "include": ["src"]
 }

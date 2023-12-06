@@ -1,16 +1,15 @@
 import React from 'react'
 import './App.css'
-// import { getApiCommonFlag } from 'api-common'
+import { APICommonFlag, getApiCommonFlag } from 'api-common'
 
-type WithName = { name: string }
+type WithName = { name: string; flag: APICommonFlag }
 
-const a: WithName = { name: '22' }
+const a: WithName = { name: '22', flag: 'Victory!' }
 
 const App: React.FC = () => {
   return (
     <div className="App">
-      <header className="App-header">I am the react app</header>
-      {/* <div>{getApiCommonFlag()}</div> */}
+      <div style={{ marginTop: '250px' }}>{getApiCommonFlag()}</div>
     </div>
   )
 }

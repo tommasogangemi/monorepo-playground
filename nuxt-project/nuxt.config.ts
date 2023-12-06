@@ -7,6 +7,10 @@ export default defineNuxtConfig({
     typeCheck: true,
   },
   vite: {
-    plugins: [eslint()],
+    plugins: [
+      eslint({
+        exclude: ['**/node_modules/**', '**/packages/**'],
+      }),
+    ],
   },
 })
